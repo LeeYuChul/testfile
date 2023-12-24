@@ -5,6 +5,11 @@ class MyWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold();
+    return const Scaffold(
+      appBar: PreferredSize(
+        preferredSize: Size.fromHeight(12),
+        child: Text("flower"),
+      ),
+    );
   }
 }

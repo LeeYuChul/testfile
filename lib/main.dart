@@ -15,7 +15,7 @@ class MyWidget extends StatelessWidget {
           Text(
             "시작_이거 num4에서 수정",
             style: TextStyle(
-              fontSize: 20,
+              fontSize: 18,
               fontWeight: FontWeight.w200,
             ),
           ),

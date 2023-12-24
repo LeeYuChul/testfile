@@ -10,6 +10,11 @@ class MyWidget extends StatelessWidget {
         preferredSize: Size.fromHeight(12),
         child: Text("flowers"),
       ),
+      body: Column(
+        children: [
+          Text("시작"),
+        ],
+      ),
     );
   }
 }

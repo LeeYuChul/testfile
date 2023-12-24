@@ -12,7 +12,7 @@ class MyWidget extends StatelessWidget {
       ),
       body: Column(
         children: [
-          Text("시작"),
+          Text("시작_이거 num4에서 수정"),
         ],
       ),
     );

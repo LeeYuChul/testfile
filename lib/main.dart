@@ -14,7 +14,10 @@ class MyWidget extends StatelessWidget {
         children: [
           Text(
             "시작_이거 num4에서 수정",
-            style: TextStyle(fontSize: 20),
+            style: TextStyle(
+              fontSize: 20,
+              fontWeight: FontWeight.w200,
+            ),
           ),
         ],
       ),
